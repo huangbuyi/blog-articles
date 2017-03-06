@@ -40,7 +40,7 @@ React.createElement(
 
 ### React.cloneElement()
 
-`React.cloneElement()`与`React.createElement()`相似，但它传入的第一个参数是一个 React 元素，而不是标签名或组件。
+`React.cloneElement()`与`React.createElement()`相似，不同的是它传入的第一个参数是一个 React 元素，而不是标签名或组件。
 
 ```
 React.cloneElement(
@@ -49,6 +49,14 @@ React.cloneElement(
   [...children]
 )
 ```
+
+## 元素与组件的区别
+
+组件是由元素构成的。元素数据结构是普通对象，而组件数据结构是类或纯函数。除此之外，还有几点区别要注意：
+
+### JSX 语法中的区别
+
+JSX 语法中，
 
 ## 最后
 
